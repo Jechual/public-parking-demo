@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: parkings
+#
+#  id         :integer          not null, primary key
+#  codigo     :integer
+#  nombre     :string(255)
+#  direccion  :string(255)
+#  ciudad     :text(65535)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codigo: 
+  nombre: MyString
+  direccion: MyString
+  ciudad: MyText
+
+two:
+  codigo: 
+  nombre: MyString
+  direccion: MyString
+  ciudad: MyText

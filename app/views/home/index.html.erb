@@ -1,0 +1,6 @@
+<h1>Pagina Principal</h1>
+<p>Bienvenidos al aplicativo Public Parking</p>
+<%@parkings.each do |parking|%>
+
+<p><%=link_to parking.nombre, parking %></p>
+<%end%>
